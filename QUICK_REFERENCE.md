@@ -51,7 +51,7 @@ docker-compose down
 - Simplifies Docker container management
 - Enables live reload for development
 - Maps port 8000 to your PC
-- Auto-rebuilds on changes
+- Reloads Python code changes automatically; rebuild the image after changing dependencies with `docker-compose up --build`
 
 ### .dockerignore
 - Speeds up Docker builds by excluding unnecessary files
